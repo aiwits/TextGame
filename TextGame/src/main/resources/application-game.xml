@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<organism>
+
+	<texts>
+		<text-description id="1" name="default" type="monster">
+			first text description
+		</text-description>
+
+		<text-description id="2" name="skills" type="player">
+			second text description
+		</text-description>
+	</texts>
+
+	<attributes>
+		<attribute
+			id="player"
+			organism-name="player"
+			defense="10"
+			critical="20"
+			hit="20"
+			aggressivity="5"
+			hp="100"
+			max-hp="100"
+			miss="50"
+			life-state="true"/>
+
+		<attribute
+			id="player-v"
+			organism-name="player-v"
+			aggressivity="321"
+			defense="20"
+			hit="30"
+			critical="25"
+			hp="100"
+			miss="100"
+			life-state="true"/>
+	</attributes>
+
+<!-- 使用@bean注解替代下面的bean -->
+<!--	<bean name="player" class="org.xl.game.support.player.Player">-->
+<!--		<property attr-ref="player" text-ref="2"/>-->
+<!--	</bean>-->
+
+</organism>

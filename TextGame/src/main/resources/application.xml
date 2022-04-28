@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<config>
+<!--	<scan package="org.xl.game.*"/>-->
+	<config name="bean" value="application-game.xml"/>
+</config>

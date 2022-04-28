@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+<!--	<scan package="org.xl.framework.utils.*"/>-->
+	<config name="bean" value="organism-text.xml"/>
+</configuration>

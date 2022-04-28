@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<organism>
+	<texts>
+		<text-description id="1" name="default" type="monster">
+			first text description
+		</text-description>
+
+		<text-description id="2" name="skills" type="player">
+			second text description
+		</text-description>
+	</texts>
+
+	<attributes>
+		<attribute id="player" name="player" max-hp="120" hp="120" defense="10" critical="20" hit="20" aggressivity="123" miss="50" life-state="true"/>
+		<attribute id="v" name="testClass" hp="100" max-hp="100" hit="10" miss="30" cap="A" xp="111" bit="12" life-state="true"/>
+	</attributes>
+
+<!--	<bean name="three" class="org.xl.framework.utils.test.ThreeMain">-->
+<!--		<property attr-ref="v" text-ref="2"/>-->
+<!--	</bean>-->
+</organism>
